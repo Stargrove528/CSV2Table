@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="3.0">
+    <announcement>
+        <text>CSV Table Importer v1.13\rCreated by mattekure</text>
+        <font>emotefont</font>
+        <icon>Mattekure_Logo</icon>
+    </announcement>
+    <properties>
+        <name>Feature: CSV Table Importer</name>
+        <version>1.13</version>
+        <author>mattekure</author>
+        <description>Copy and paste CSV into formatted text fields as a table, and into roll tables.
+            This extension was based on the extension by James (Lokiare) Holloway
+        </description>
+    </properties>
+    <base>
+        <includefile source="CSVImport.xml" />
+        <script name="CSVImportManager" file="CSVImportManager.lua" />
+        <icon name="csv_button" file="csv_button.png" />
+        <icon name="Mattekure_Logo" file="Mattekure_Logo.png" />
+        <string name="sidebar_tooltip_csv">Import CSV Table</string>
+        <string name="CSVImport_window_title">CSV Importer</string>
+    </base>
+</root>
