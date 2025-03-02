@@ -1,5 +1,5 @@
 ------------------------------------------------------------------
--- Author: James Lillard (Stargrove)
+-- Author: Stargrove
 -- Purpose: Replace the #table# placeholder with the text in your CSV
 --          file in text fields with a formatted HTML table.
 ------------------------------------------------------------------
